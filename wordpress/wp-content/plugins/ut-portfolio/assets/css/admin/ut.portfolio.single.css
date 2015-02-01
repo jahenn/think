@@ -1,0 +1,66 @@
+/* UNITED THEMES PORTFOLIO PLUGIN 
+   ALL RIGHTS RESERVED BY UNITED THEMES
+   WWW.UNITEDTHEMES.COM 
+*/
+
+#post-format-quote,
+.post-format-quote,
+#post-format-link,
+.post-format-link,
+#post-format-image,
+.post-format-image,
+#formatdiv {
+	display:none !important;
+}
+#ut_page_slogan {
+    padding: 10px 8px;
+    font-size: inherit;
+    line-height: 100%;
+    height: 120px;
+    width: 100%;
+    outline: 0px none;
+    margin: 0px;
+    background-color: #FFF;
+    margin-bottom:20px;
+    resize:vertical;
+}
+.ut_page_slogan_title {
+    margin:20px 0 10px !important; 
+    padding:0 10px !important;
+}
+#ut-panel-tabs .ui-widget-header {
+    background:#eeeeee !important;
+    padding:20px 12px;
+    margin:0 0 20px;
+    height:40px;
+    border-bottom:1px solid #EEEEEE;   
+}
+#ut-panel-tabs .ui-widget-header li {
+    line-height:40px;
+    float:left;
+    margin-right:20px;
+}
+#ut-panel-tabs .ui-widget-header li a {
+    text-decoration:none;
+    background:#FFFFFF;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    padding:8px 12px;
+    color:#999999;
+    outline:none;
+    -webkit-transition:all 0.2s ease 0s;
+	-moz-transition:all 0.2s ease 0s; 
+	 transition:all 0.2s ease 0s;
+}
+#ut-panel-tabs .ui-widget-header li a:hover {
+    color:#333333;
+}
+#ut-panel-tabs .ui-widget-header li.ui-state-active a,
+#ut-panel-tabs .ui-widget-header li.ui-state-active a:hover {
+    background:#333333;
+    color:#FFFFFF;
+}
+#ut-panel-tabs .ui-widget-content {
+    padding:0 12px !important;
+}

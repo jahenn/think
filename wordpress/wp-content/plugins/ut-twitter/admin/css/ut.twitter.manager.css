@@ -1,0 +1,98 @@
+/* UNITED THEMES TWITTER PLUGIN 
+   ALL RIGHTS RESERVED BY UNITED THEMES
+   WWW.UNITEDTHEMES.COM 
+*/
+.ut-twitter-wrap #poststuff {
+    padding-top:9px !important;
+}
+.ut-twitter-wrap h2 {
+    margin-top:0 !important;
+    padding-bottom:0 !important;
+    font-size:23px !important;
+}
+#ut-twitter-manager .inside p {
+    font-size:13px;
+    color:#666666;
+    font-style:italic;
+    margin-top:21px;
+}
+#ut-twitter-manager .inside p a {
+    color:#77be32;
+    font-weight:bold;
+    outline:none;
+    -webkit-transition:all 0.2s ease 0s;
+    -moz-transition:all 0.2s ease 0s;
+    transition:all 0.2s ease 0s;
+}
+#ut-twitter-manager .inside p a:hover,
+#ut-twitter-manager .inside p a:focus {
+    color:#444444;
+}
+#ut-twitter-manager .form-table, 
+#ut-twitter-manager .form-table td, 
+#ut-twitter-manager .form-table td p, 
+#ut-twitter-manager .form-table th, 
+#ut-twitter-manager .form-wrap label {
+    font-size:13px; 
+}
+#ut-twitter-manager th ,
+#ut-twitter-manager td {
+    padding:20px 0;
+}
+#ut-twitter-manager tr {
+    border-bottom:1px solid #EEEEEE;
+}
+#ut-twitter-manager input {
+     line-height: 32px;
+     font-size: 14px;
+     margin: 0;
+     height:32px;
+     padding: 0 7px;
+     position: relative;
+     background-color: #fff;
+     border: 1px solid #ddd;
+    -webkit-box-shadow: none;
+     -moz-box-shadow:none;
+     box-shadow: none;
+     color: #333333;
+     -webkit-transition:all 0.05s ease-in-out 0s;
+     -moz-transition:all 0.05s ease-in-out 0s;
+     transition: all 0.05s ease-in-out 0s;
+     width:100%;
+     max-width: 400px;
+}
+#ut-twitter-manager input:focus,
+#ut-twitter-manager input:hover {
+     -webkit-box-shadow:0 1px 2px rgba(0, 0, 0, 0.07) inset;
+     -moz-box-shadow:0 1px 2px rgba(0, 0, 0, 0.07) inset;
+     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07) inset;    
+}
+#ut-twitter-manager #submit {
+    font-size:12px;
+    color:#FFFFFF;
+    padding:8px 12px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    background:#77be32;
+    cursor:pointer;
+    -webkit-transition:all 0.2s ease 0s;
+    -moz-transition:all 0.2s ease 0s;
+    transition:all 0.2s ease 0s;
+    font-weight:normal;
+    width:inherit !important;
+    -webkit-box-shadow: none;
+     -moz-box-shadow:none;
+     box-shadow: none;
+     border:none;
+     height: inherit !important;
+     line-height:inherit !important;   
+}
+#ut-twitter-manager #submit:hover,
+#ut-twitter-manager #submit:focus {
+    background:#333333 !important;
+    color:#FFFFFF !important;
+}
+#ut-twitter-manager .submit {
+    padding-bottom:9px !important;
+}

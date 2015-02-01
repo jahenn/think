@@ -1,0 +1,170 @@
+/* UNITED THEMES SECTION MANAGER 
+   ALL RIGHTS RESERVED BY UNITED THEMES
+   WWW.UNITEDTHEMES.COM 
+*/
+
+/* Hide WP Meta Panels */
+
+.js #ut_one_page_settings,
+.js #ut_metabox_hero_settings,
+.js #ut_metabox_header_settings,
+.js #ut_metabox_csection_settings,
+.js #ut_metabox_color_settings,
+.js #ut_metabox_portfolio_settings {
+    display:none;
+}
+
+.ut-disabled-for-user {
+    visibility:hidden;
+    height:0px;
+    overflow:hidden;
+    padding:0px !important;
+}
+
+/* UT Panel Tabs */
+
+#ut-panel-tabs .ui-widget-header {
+    background:#eeeeee !important;
+    padding:20px 12px;
+    margin:0;
+    height:40px;
+    border-bottom:1px solid #EEEEEE;   
+}
+#ut-panel-tabs .ui-widget-header li {
+    line-height:40px;
+    float:left;
+    margin-right:10px;
+}
+#ut-panel-tabs .ui-widget-header li a {
+    text-decoration:none;
+    background:#FFFFFF;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    padding:8px 12px;
+    color:#999999;
+    outline:none;
+    -webkit-transition:all 0.2s ease 0s;
+	-moz-transition:all 0.2s ease 0s; 
+	 transition:all 0.2s ease 0s;
+}
+#ut-panel-tabs .ui-widget-header li a:hover {
+    color:#333333;
+}
+#ut-panel-tabs .ui-widget-header li.ui-state-active a,
+#ut-panel-tabs .ui-widget-header li.ui-state-active a:hover {
+    background:#333333;
+    color:#FFFFFF;
+}
+#ut-panel-tabs .ui-widget-content {
+    padding:0 12px !important;
+}
+
+/* UT Switch Settings */
+
+#ut-option-switch-wrap {
+    padding:0 12px;   
+}
+#ut-option-switch-wrap .ut-radio-button-group {
+    line-height:40px;
+}
+#ut-option-switch-wrap .ut-radio-button-group .description {
+    margin-top:10px;
+}
+#ut-option-switch-wrap .ut-radio-button-group a {
+    text-decoration:none;
+    background:#EEEEEE;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    padding:8px 12px;
+    color:#999999;
+    outline:none;
+    -webkit-transition:all 0.2s ease 0s;
+	-moz-transition:all 0.2s ease 0s; 
+	 transition:all 0.2s ease 0s;
+     margin-right:10px;
+}
+#ut-option-switch-wrap .ut-radio-button-group a:hover {
+    color:#333333;
+}
+#ut-option-switch-wrap .ut-radio-button-group a.selected {
+    background:#333333;
+    color:#FFFFFF;
+}
+/* UT Meta Settings */
+
+#ut-metapanel {
+    font-size:13px;
+}
+#ut-metapanel .inside {
+    margin:0;
+    padding:0;
+    font-size:inherit;
+    line-height:inherit;   
+}
+#ut-metapanel .description {
+    color:#666666;
+    font-style:italic;
+    margin:0;
+    padding:0; 
+}
+#ut-metapanel #ut-hero-settings {
+}
+#ut-metapanel .format-settings {
+    margin:0;
+    padding:20px 0;
+}
+.format-setting.type-button-builder {
+    width:inherit; 
+}
+#ut-metapanel .option-tree-setting-body .format-settings {
+    padding:20px;
+}
+#ut-metapanel .format-settings:last-child {
+}
+#ut-metapanel .format-settings h2 {
+    margin:0 0 10px 0;
+    padding:0;
+    font-size:26px;
+    color:#222222;
+    font-style:normal;
+}
+#ut-metapanel .format-settings label {
+    font-style:normal;
+    color:#222222;
+    font-weight:bold;
+    font-size:13px;
+}
+#ut-metapanel .format-settings p {
+    margin-bottom:10px !important;
+}
+#ut-metapanel .format-settings p:last-child {
+    margin-bottom:0 !important;
+}
+#ut-metapanel .format-settings-headline,
+#ut-metapanel .format-settings {
+    overflow:inherit;   
+}
+#setting_ut_activate_page_hero .ut-radio-button {
+    text-decoration:none;
+    background:#EEEEEE;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    padding:8px 12px;
+    color:#999999;
+    outline:none;
+    display:inline-block;
+    -webkit-transition:all 0.2s ease 0s;
+	-moz-transition:all 0.2s ease 0s; 
+	 transition:all 0.2s ease 0s;
+     margin-right:10px;
+}
+#setting_ut_activate_page_hero .ut-radio-button:hover {
+    color:#333333;
+}
+#setting_ut_activate_page_hero .ut-radio-button.selected {
+    background:#77be32;
+    color:#FFFFFF;
+}
